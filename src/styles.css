@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.App {
+  font-family: Roboto, sans-serif;
+  text-align: center;
+  display: inline-flex;
+  width: 100%;
+  color: #2c2e43;
+}
+
+.list {
+  text-align: left;
+  width: 180px;
+  background-color: #50cb93;
+  height: 100vh;
+  line-height: 45px;
+  overflow: scroll;
+}
+
+li {
+  cursor: pointer;
+  padding-left: 10px;
+}
+
+li:hover {
+  background-color: #71efa3;
+}
+
+.panel {
+  padding-top: 10px;
+  padding-left: 10px;
+  line-height: 30px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+li {
+  list-style-type: none;
+}
